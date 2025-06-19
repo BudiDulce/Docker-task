@@ -48,5 +48,7 @@ ENV` (اختصار لـ Environment Variable):
     قيمته بتفضل موجودة ومتاحة للحاوية طول ما هي شغالة.
     مثال: ENV DATABASE_URL=postgres://user:pass@db:5432/mydb (دي معلومات ممكن يحتاجها التطبيق وهو شغال)
  7- task 7 
+photos will be submitted with the pdf sent in the form
+
  
  
