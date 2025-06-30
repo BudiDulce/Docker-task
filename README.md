@@ -38,15 +38,15 @@ Flask وقاعدة بيانات PostgreSQL مع بعض في بيئة واحدة 
 
 
 
-ARG (اختصار لـ Argument: (
-    بيستخدم عشان تعرف متغيرات أثناء عملية بناءbuilding image  صورة Docker.
-    قيمته بتكون موجودة بس وقت البناء وبتختفي بعد كده.
-    مثال: ARG VERSION=1.0 (ممكن تستخدمها عشان تحدد إصدار معين وقت البناء).
+ARG (اختصارـ Argument: (
+    بيستخدم عشان تعرف متغيرات أثناء عملية بناءbuilding image  صورة Docker
+    قيمته بتكون موجودة بس وقت البناء وبتختفي بعد كده
+    مثال: ARG VERSION=1.0 (ممكن تستخدمها عشان تحدد إصدار معين وقت البناء)
 
-ENV` (اختصار لـ Environment Variable):
+ENV اختصار) ـ Environment Variable):
  بيستخدم عشان تعرف متغيرات بيئية جوه الحاوية بعد ما تشتغل.
-    قيمته بتفضل موجودة ومتاحة للحاوية طول ما هي شغالة.
-    مثال: ENV DATABASE_URL=postgres://user:pass@db:5432/mydb (دي معلومات ممكن يحتاجها التطبيق وهو شغال)
+    قيمته بتفضل موجودة ومتاحة لcontainer طول ما هي شغالة.
+    example : ENV DATABASE_URL=postgres://user:pass@db:5432/mydb (دي معلومات ممكن يحتاجها التطبيق وهو شغال)
  7- task 7 
 photos will be submitted with the pdf sent in the form
 
